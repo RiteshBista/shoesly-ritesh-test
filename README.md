@@ -39,24 +39,29 @@ _\*Shoesly works on iOS and Android._
 
 ---
 
-## Assumption made during development 🧪
+## Assumptions Made During Development 🧪
 
-- Not 100% to data should be dynamic given that this is a test and it's intention is just see our implementation of backend services and code architecture.
-- Asset path for shoe and brand images are stored in firebase.
+The majority of the data should be dynamic to simulate a real-world scenario, although some static data was used for testing purposes.
+Asset paths for shoe and brand images are stored in Firebase.
+User authentication and management are handled via Firebase Authentication.
+Challenges Faced and How I Overcame Them
 
-# Challenges faced and how I overcame it
+## Populating Shoes and Reviews Data in Firestore
 
-## Populating shoes and reviews data in firestore.
+The requirement to populate shoes and reviews with meaningful names, prices, and reviews presented a challenge due to the volume of data needed.
+Solution
 
-- All the shoes data and reviews are dynamic and contains meaningful names, price, reviews etc. Populating so many reviews for each shoes can be a time consuming.
+Utilized ChatGPT to generate realistic dummy data for shoes and reviews, which was then stored in the database efficiently.
+Implementing Real-Time Updates
+Ensuring that the UI reflects real-time updates from Firestore without performance issues was crucial.
+Solution
 
-## Solution
+Leveraged Firestore’s real-time capabilities and used efficient querying and indexing strategies to keep the app responsive.
+Additional Features
 
-- Used ChatGPT to generate dummy data to store in database.
-
-## Additional feature
-
-- Animated Splash Screen
+Dynamic Add to Cart Bottom Sheet: Implemented a bottom sheet that dynamically updates with the selected shoe’s details.
+PageView on Homepage and Description Page: Added a PageView widget to enhance navigation and user experience on the homepage and description pages.
+Animated Splash Screen: Created an engaging and animated splash screen to improve the first impression of the app.
 
 [coverage_badge]: coverage_badge.svg
 [flutter_localizations_link]: https://api.flutter.dev/flutter/flutter_localizations/flutter_localizations-library.html
