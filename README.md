@@ -56,12 +56,17 @@ Implementing Real-Time Updates
 Ensuring that the UI reflects real-time updates from Firestore without performance issues was crucial.
 Solution
 
-Leveraged Firestore’s real-time capabilities and used efficient querying and indexing strategies to keep the app responsive.
+## Leveraged Firestore’s real-time capabilities and used efficient querying and indexing strategies to keep the app responsive.
+
 Additional Features
 
-Dynamic Add to Cart Bottom Sheet: Implemented a bottom sheet that dynamically updates with the selected shoe’s details.
+## Dynamic Add to Cart Bottom Sheet: Implemented a bottom sheet that dynamically updates with the selected shoe’s details.
+
 PageView on Homepage and Description Page: Added a PageView widget to enhance navigation and user experience on the homepage and description pages.
-Animated Splash Screen: Created an engaging and animated splash screen to improve the first impression of the app.
+
+## Animated Splash Screen: Created an engaging and animated splash screen to improve the first impression of the app.
+
+## CI/CD added
 
 [coverage_badge]: coverage_badge.svg
 [flutter_localizations_link]: https://api.flutter.dev/flutter/flutter_localizations/flutter_localizations-library.html
